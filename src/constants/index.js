@@ -172,11 +172,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "His dedication to software engineering is truly unbelievable. However, his track record makes his tale easier to swallow. I see Robert's progress as 2x to 4x not just from raw talent alone but his willingness to practice and learn.",
+      name: "Scott Blanch",
+      designation: "Software Engineer",
+      company: "Ancestry",
+      image: "https://media.licdn.com/dms/image/C5603AQHcHuxQnw7qCA/profile-displayphoto-shrink_400_400/0/1642100557504?e=1710374400&v=beta&t=-3IjvupA3FiN162RVFbC7N_O709C7Ok5RLn9WwAKb4U",
     },
     {
       testimonial:
