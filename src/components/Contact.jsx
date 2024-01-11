@@ -31,18 +31,17 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs
-      .send(
+    emailjs.send(
         'service_ram24v8',
-        'template_3ad5nxf',
+        'template_r2j1rud',
         {
           from_name: form.name,
-          to_name: "Robert Johnson",
+          to_name: "Robert",
           from_email: form.email,
           to_email: "robertcjohnson1984@gmail.com",
           message: form.message,
         },
-        'V-VLFnBCeqTEM9zRg',
+        'V-VLFnBCeqTEM9zRg'
       )
       .then(
         () => {
