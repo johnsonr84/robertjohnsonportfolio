@@ -20,7 +20,7 @@ const FeedbackCard = ({
   >
     <p className='text-black font-black text-[48px]'>"</p>
     <div className='mt-1'>
-      <p className='text-black tracking-wider text-[18px]'>{testimonial}</p>
+      <p className='text-black tracking-wider text-[15px]'>{testimonial}</p>
 
       <div className='mt-7 flex justify-between items-center gap-1'>
         <div className='flex-1 flex flex-col'>
@@ -46,14 +46,14 @@ const Feedbacks = () => {
   return (
     <div className={`mt-12 bg-[#2975f0] rounded-[20px]`}>
       <div
-        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
+        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[240px]`}
       >
         <motion.div variants={textVariant()}>
           <p className={styles.sectionSubTextLight}>What others say</p>
           <h2 className={styles.sectionHeadText}>Testimonials.</h2>
         </motion.div>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+      <div className={`mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}
