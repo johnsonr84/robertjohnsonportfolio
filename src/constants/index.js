@@ -35,6 +35,18 @@ import {
       title: "Experience",
     },
     {
+      id: "tech",
+      title: "Skills",
+    },
+    {
+      id: "projects",
+      title: "Projects",
+    },
+    {
+      id: "testimonials",
+      title: "Testimonials",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
