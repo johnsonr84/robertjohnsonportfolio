@@ -19,6 +19,22 @@
   display: block;
 }
 
+.bg-global-nav-scrolled {
+  background-color: rgba(22, 22, 23, .8);
+}
+
+.bg-global-nav {
+  background:rgba(255,255,255, 0.9);
+}
+
+.text-primary {
+  color: #2975f0;
+}
+
+.bg-blue {
+  color: #2975f0;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
