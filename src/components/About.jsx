@@ -19,7 +19,7 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className='bg-white rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
@@ -27,7 +27,7 @@ const ServiceCard = ({ index, title, icon }) => (
           className='w-16 h-16 object-contain'
         />
 
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='text-black text-[20px] font-bold text-center'>
           {title}
         </h3>
       </div>
@@ -47,9 +47,14 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
+        I am a skilled Fullstack Software Developer with versatile skill set that encompasses 
+        Frontend technologies such as HTML, CSS, JavaScript, React, Angular, and TypeScript, 
+        as well as Backend technologies including Node.js, Express.js, Python, and C#. 
+        With a solid understanding of database management systems, RESTful APIs, and 
+        version control tools like Git, I am equipped to deliver end-to-end solutions. 
+        My commitment to creating high-quality applications, combined with my comprehensive 
+        technical knowledge, enables me to tackle complex challenges and drive projects to success.
+        I am a quick learner and collaborate closely with teams and clients to
         create efficient, scalable, and user-friendly solutions that solve
         real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
