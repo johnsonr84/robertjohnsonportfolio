@@ -10,6 +10,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   index,
+  projects,
   name,
   description,
   tags,
@@ -89,7 +90,7 @@ const Works = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
+        {projects.map((project, projects, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
       </div>
@@ -97,4 +98,4 @@ const Works = () => {
   );
 };
 
-export default SectionWrapper(Works, "");
+export default SectionWrapper(Works, "projects");
