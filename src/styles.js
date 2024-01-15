@@ -12,6 +12,8 @@ const styles = {
       "text-[#2975f0] font-[] md:text-[60px] sm:text-[50px] xs:text-[40px] text-[30px]",
     sectionSubText:
       "sm:text-[18px] text-[14px] text-light uppercase tracking-wider",
+      sectionSubTextLight:
+      "text-white sm:text-[18px] text-[14px] text-light uppercase tracking-wider",
   };
   
   export { styles };

@@ -35,6 +35,10 @@
   color: #2975f0;
 }
 
+.vertical-timeline::before {
+  background: #2975f0;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
