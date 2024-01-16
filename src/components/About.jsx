@@ -45,18 +45,9 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-[#545454] text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a skilled Fullstack Software Developer with versatile skill set that encompasses 
-        Frontend technologies such as HTML, CSS, JavaScript, React, Angular, and TypeScript, 
-        as well as Backend technologies including Node.js, Express.js, Python, and C#. 
-        With a solid understanding of database management systems, RESTful APIs, and 
-        version control tools like Git, I am equipped to deliver end-to-end solutions. 
-        My commitment to creating high-quality applications, combined with my comprehensive 
-        technical knowledge, enables me to tackle complex challenges and drive projects to success.
-        I am a quick learner and collaborate closely with teams and clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I am a skilled Fullstack Software Developer with expertise in HTML, CSS, JavaScript, React, Angular, TypeScript, Node.js, Express.js, Python, and C#. Proficient in database management, RESTful APIs, and Git, I deliver end-to-end solutions. Committed to creating high-quality applications, I tackle complex challenges, ensuring project success. A quick learner, I collaborate to create efficient, scalable, user-friendly solutions. Let's bring your ideas to life!"
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
