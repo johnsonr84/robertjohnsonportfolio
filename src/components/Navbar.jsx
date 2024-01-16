@@ -57,7 +57,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                scrolled ? "text-white" : "text-black"
+                scrolled ? "text-white" : "text-[#545454]"
               } hover:text-[#007AE2] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
