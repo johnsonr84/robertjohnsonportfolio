@@ -15,10 +15,12 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    stv,
+    teqtank,
+    posh,
+    edx,
+    noorda,
+    amari,
     carrent,
     jobit,
     tripguide,
@@ -54,19 +56,19 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "Frontend Developer",
-      icon: frontend,
-    },
-    {
-      title: "Backend Developer",
+      title: "Software Developer",
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Fullstack Developer",
+      icon: frontend,
+    },
+    {
+      title: "Web" + " " + "Developer",
+      icon: web,
+    },
+    {
+      title: "Bootcamp Teaching Assistant",
       icon: creator,
     },
   ];
@@ -128,55 +130,79 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Fullstack Engineer",
+      company_name: "Strategic Tech Ventures",
+      icon: stv,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "July 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Spearheaded the design and development of robust software solutions, leveraging cutting-edge technologies.",
+        "Implemented a client-centric approach, ensuring customized applications tailored to meet the specific needs of our clientele.",
+        "Contributed to the creation of scalable and efficient software systems that significantly enhanced the overall functionality and performance.",
+        "Collaborated with cross-functional teams to deliver web applications that not only met but exceeded client expectations, resulting in increased client satisfaction.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Bootcamp Instructional Specialist",
+      company_name: "2U/edX",
+      icon: edx,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sept 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Mentored, encouraged, and supported students throughout the edX Full Stack Coding Bootcamp, providing guidance on activities, assignments, and projects to help them succeed.",
+        "Collaborated with Instructors to develop and refine course module objectives, created engaging class content, and assisted with student office hours to foster a productive learning environment.",
+        "Provided detailed and constructive feedback on coding projects, enabling students to identify areas for improvement and build strong coding skills.",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company_name: "TeqTank",
+      icon: teqtank,
+      iconBg: "#383E56",
+      date: "July 2022 - June 2023",
+      points: [
+        "Style architecting software platform pages and modules to modernize and streamline UI/UX.",
+        "Maintaining and creating client and customer-facing features, utilizing Angular and TypeScript.",
+        "Web development for in-house clientele in .NET, Blazor, C# and Bootstrap.",
+        "Produced clean, extensible and production ready code for existing back office portal.",
+      ],
+    },
+    {
+      title: "Software Developer",
+      company_name: "Perfectly Posh",
+      icon: posh,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - July 2023",
+      points: [
+        "Designed, developed, and maintained an internal consultant portal for Posh using React, ensuring optimal performance, reliability, and user experience.",
+        "Collaborated with cross-functional teams to maintain and create client and customer- facing features, such as user interfaces, web pages, and mobile applications, resulting in improved user experience and increased revenue.",
+        "Developed robust code to handle complex business logic and large data fetches, enhancing application performance and scalability.",
+        "Conducted thorough peer code reviews and followed coding standards, best practices, and test cases, ensuring code quality, readability, and maintainability.",
+      ],
+    },
+    {
+      title: "Fullstack Developer",
+      company_name: "Noorda College of Osteopathic Medicine",
+      icon: noorda,
+      iconBg: "#E6DEDD",
+      date: "Oct 2021 - May 2022",
+      points: [
+        "Fullstack platform development built from the ground up utilizing MongoDB, Express, React and Node (MERN).",
+        "Spearheaded the development of a new platform from scratch, resulting in a high-performing, scalable, and secure application that met the needs of stakeholders and users.",
+        "Designed wireframes using Adobe XD to streamline the development process and reduce project-to-production times by 30%, enabling the team to rapidly iterate on designs and deliver high-quality features to end-users.",
       ],
     },
     {
       title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      company_name: "Amari Consulting",
+      icon: amari,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "June 2016 - June 2017",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Dynamic web development in HTML and CSS, with a specialized focus on WordPress, crafting visually appealing and functional websites",
+        "Spearheaded the creation of front-end content for multiple client websites within the WordPress framework, employing collaborative pair programming with backend developers to ensure seamless website launches.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Led the redesign and development of visual content for the Amari website, while concurrently revitalizing numerous client projects through the creation of captivating Photoshop content, enhancing the overall aesthetic and functionality.",
       ],
     },
   ];
@@ -205,6 +231,14 @@ import {
       designation: "Managing Director",
       company: "Silicon Slopes",
       image: "https://media.licdn.com/dms/image/C4D03AQFQpn4T4tvlDg/profile-displayphoto-shrink_100_100/0/1620687888579?e=1710979200&v=beta&t=2rCWb898yCvoQHLi8eq5JJBkc5ac5W1j_MAYYG90LZw",
+    },
+    {
+      testimonial:
+        "I have worked with Robert on several occasions. His vast experience in software development has been a huge resource for me and many other developers alike. I look forward to the next chance we get to work together.",
+      name: "Jon Cabot",
+      designation: "Software Engineer",
+      company: "TVI MarketPro3",
+      image: "https://media.licdn.com/dms/image/C5603AQHiSM924n9Q2Q/profile-displayphoto-shrink_100_100/0/1651195966267?e=1710979200&v=beta&t=qs-BLXdUMol-9pSe0PFDKwbPVDmUSwv8-DqyT7Sa9BA"
     },
     {
       testimonial:
