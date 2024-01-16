@@ -31,9 +31,10 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
 
-    emailjs.send(
-        'service_ram24v8',
-        'template_r2j1rud',
+    emailjs
+      .send(
+        "service_ram24v8",
+        "template_r2j1rud",
         {
           from_name: form.name,
           to_name: "Robert",
@@ -41,7 +42,7 @@ const Contact = () => {
           to_email: "robertcjohnson1984@gmail.com",
           message: form.message,
         },
-        'V-VLFnBCeqTEM9zRg'
+        "V-VLFnBCeqTEM9zRg"
       )
       .then(
         () => {
@@ -69,9 +70,9 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-blue p-8 rounded-2xl"
+        className="flex-[0.75] bg-[#454545] p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
+        <p className={styles.sectionSubTextLight}>Get in touch!</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
 
         <form
@@ -87,7 +88,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder="What's your good name?"
-              className="bg-light py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-light py-4 px-6 placeholder:text-tertiary text-primary rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -98,7 +99,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your web address?"
-              className="bg-light py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-light py-4 px-6 placeholder:text-tertiary text-primary rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -109,16 +110,17 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What you want to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-white py-4 px-6 placeholder:text-tertiary text-primary rounded-lg outline-none border-none font-medium"
             />
           </label>
-
-          <button
-            type="submit"
-            className="bg-light py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex place-content-center">
+            <button
+              type="submit"
+              className="bg-[#2975f0] py-3 px-8 rounded-xl outline-none w-1/2 text-white font-bold shadow-md shadow-primary"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+          </div>
         </form>
       </motion.div>
 
