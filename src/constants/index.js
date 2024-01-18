@@ -218,6 +218,14 @@ import {
     },
     {
       testimonial:
+        "I had the pleasure of working closely with Robert during our time together in the full stack coding bootcamp at the University of Denver / 2U, where he served as my Teaching Assistant. His patient and thorough approach to assisting with complex coding concepts greatly contributed to the success of our cohort.",
+      name: "Jay Mascarenas",
+      designation: "Director of Frontend Development",
+      company: "Suited Connector",
+      image: "https://media.licdn.com/dms/image/C5603AQEz7kkuFjzQrQ/profile-displayphoto-shrink_100_100/0/1647603340348?e=1710979200&v=beta&t=NCPL9ekSHlh4f0uPW7-6JBv7UVQHxMqab_sDTQvoxGI",
+    },
+    {
+      testimonial:
         "In addition to his technical skills, Robert is also a supportive colleague who is always willing to lend a hand and share his knowledge. His positive attitude and collaborative approach make him a valuable asset to any team.",
       name: "Brandon Schumacher",
       designation: "Full Stack Developer",
