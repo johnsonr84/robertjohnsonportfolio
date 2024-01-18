@@ -35,6 +35,26 @@
   color: #2975f0;
 }
 
+.text-orange {
+  color: orange;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-yellow {
+  color: yellow;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.text-pink {
+  color: rgb(250, 39, 155);
+}
+
 .vertical-timeline::before {
   background: #2975f0;
 }
