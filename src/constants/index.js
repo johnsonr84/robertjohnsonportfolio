@@ -9,6 +9,7 @@ import {
     css,
     reactjs,
     redux,
+    angular,
     tailwind,
     nodejs,
     mongodb,
@@ -97,6 +98,10 @@ import {
     {
       name: "Redux Toolkit",
       icon: redux,
+    },
+    {
+      name: "Angular",
+      icon: angular,
     },
     {
       name: "Tailwind CSS",
