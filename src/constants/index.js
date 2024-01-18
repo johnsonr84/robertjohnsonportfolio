@@ -10,12 +10,32 @@ import {
     reactjs,
     redux,
     angular,
+    aws,
+    azure,
+    bootstrap,
+    csharp,
+    express,
+    firebase,
+    nextjs,
+    gcs,
+    github,
+    graphql,
+    mysql,
+    netcore,
+    php,
+    python,
+    salesforce,
+    sass,
+    visualstudio,
+    vscode,
+    xd,
+    illustrator,
     tailwind,
+    threejs,
     nodejs,
     mongodb,
     git,
     figma,
-    docker,
     stv,
     teqtank,
     posh,
@@ -25,7 +45,6 @@ import {
     carrent,
     jobit,
     tripguide,
-    threejs,
   } from "../assets";
 
   export const navLinks = [
@@ -76,39 +95,31 @@ import {
 
   const technologies = [
     {
-      name: "HTML 5",
+      name: "html",
       icon: html,
     },
     {
-      name: "CSS 3",
+      name: "css",
       icon: css,
     },
     {
-      name: "JavaScript",
+      name: "javascript",
       icon: javascript,
     },
     {
-      name: "TypeScript",
+      name: "typescript",
       icon: typescript,
     },
     {
-      name: "React JS",
+      name: "reactjs",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Angular",
+      name: "angular",
       icon: angular,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "Node JS",
+      name: "nodejs",
       icon: nodejs,
     },
     {
@@ -116,21 +127,108 @@ import {
       icon: mongodb,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "express",
+      icon: express,
     },
+    // {
+    //   name: "redux",
+    //   icon: redux,
+    // },
+
+    // {
+    //   name: "graphql",
+    //   icon: graphql,
+    // },
+    // {
+    //   name: "nextjs",
+    //   icon: nextjs,
+    // },
     {
-      name: "git",
-      icon: git,
+      name: "netcore",
+      icon: netcore,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    // {
+    //   name: "aws",
+    //   icon: aws,
+    // },
+    // {
+    //   name: "azure",
+    //   icon: azure,
+    // },
+    // {
+    //   name: "csharp",
+    //   icon: csharp,
+    // },
+    // {
+    //   name: "gcs",
+    //   icon: gcs,
+    // },
+    // {
+    //   name: "salesforce",
+    //   icon: salesforce,
+    // },
+    // {
+    //   name: "boostrap",
+    //   icon: bootstrap,
+    // },
+    // {
+    //   name: "tailwind",
+    //   icon: tailwind,
+    // },
+    // {
+    //   name: "sass",
+    //   icon: sass,
+    // },
+
+    // {
+    //   name: "php",
+    //   icon: php,
+    // },
+    // {
+    //   name: "python",
+    //   icon: python,
+    // },
+
+    // {
+    //   name: "mysql",
+    //   icon: mysql,
+    // },
+    // {
+    //   name: "firebase",
+    //   icon: firebase,
+    // },
+    // {
+    //   name: "threejs",
+    //   icon: threejs,
+    // },
+    // {
+    //   name: "git",
+    //   icon: git,
+    // },
+    // {
+    //   name: "xd",
+    //   icon: xd,
+    // },
+    // {
+    //   name: "illustrator",
+    //   icon: illustrator,
+    // },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "github",
+    //   icon: github,
+    // },
+    // {
+    //   name: "vscode",
+    //   icon: vscode,
+    // },
+    // {
+    //   name: "visualstudio",
+    //   icon: visualstudio,
+    // },
   ];
   
   const experiences = [
