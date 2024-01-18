@@ -42,9 +42,9 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="h-7 object-contain" />
-          <p className="text-white text-[22px] font-bold cursor-pointer flex ">
-            {/* Robert Johnson &nbsp; */}
+          {/* <img src={logo} alt="logo" className="h-7 object-contain" /> */}
+          <p className="text-[#2975f0] text-[22px] font-bold cursor-pointer flex ">
+            Robert Johnson &nbsp;
             {/* <span className="sm:block hidden font-medium"> |   Portfolio</span> */}
             <span className={`${
         scrolled ? "text-white" : "text-black"
@@ -57,7 +57,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                scrolled ? "text-white" : "text-[#545454]"
+                scrolled ? "text-white" : "text-[black]"
               } hover:text-[#007AE2] text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
