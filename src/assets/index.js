@@ -39,6 +39,7 @@ import illustrator from "./tech/illustrator.png";
 import xd from "./tech/xd.png";
 import visualstudio from "./tech/visualstudio.png";
 import vscode from "./tech/vscode.png";
+import deployment from "../assets/deployment.png";
 
 import stv from "./company/stv.png";
 import edx from "./company/edx.png";
@@ -101,4 +102,5 @@ export {
   carrent,
   jobit,
   slackclone,
+  deployment,
 };

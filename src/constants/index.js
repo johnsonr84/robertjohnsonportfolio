@@ -431,52 +431,20 @@ import {
         },
         {
           name: "auth",
-          color: "red",
-        },
-        {
-          name: "auth",
-          color: "green-text-gradient",
+          color: "text-red",
         },
         {
           name: "firebase",
-          color: "",
+          color: "text-orange",
         },
         {
           name: "styled components",
-          color: "pink-text-gradient",
+          color: "text-pink",
         },
       ],
       image: slackclone,
       source_code_link: "https://github.com/johnsonr84/slack-clone",
-    },
-    {
-      name: "Slack Clone",
-      description:
-        "Full Stack App - Slack Clone built with React, Redux, Styled Components & Firebase Hooks functionality and user authentication via gmail deployed to Firebase.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "auth",
-          color: "red",
-        },
-        {
-          name: "auth",
-          color: "green-text-gradient",
-        },
-        {
-          name: "firebase",
-          color: "",
-        },
-        {
-          name: "styled components",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: slackclone,
-      source_code_link: "https://github.com/johnsonr84/slack-clone",
+      deployment_link: "https://slack-clone-dd-71ab5.web.app/"
     },
   ];
   
