@@ -49,7 +49,7 @@ import amari from "./company/amari.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import slackclone from "./slack-clone.png";
 
 export {
   logo,
@@ -100,5 +100,5 @@ export {
   amari,
   carrent,
   jobit,
-  tripguide,
+  slackclone,
 };

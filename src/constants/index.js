@@ -44,7 +44,7 @@ import {
     amari,
     carrent,
     jobit,
-    tripguide,
+    slackclone,
   } from "../assets";
 
   export const navLinks = [
@@ -197,14 +197,14 @@ import {
     //   name: "firebase",
     //   icon: firebase,
     // },
-    // {
-    //   name: "threejs",
-    //   icon: threejs,
-    // },
-    // {
-    //   name: "git",
-    //   icon: git,
-    // },
+    {
+      name: "threejs",
+      icon: threejs,
+    },
+    {
+      name: "git",
+      icon: git,
+    },
     // {
     //   name: "xd",
     //   icon: xd,
@@ -421,25 +421,62 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Slack Clone",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Full Stack App - Slack Clone built with React, Redux, Styled Components & Firebase Hooks functionality and user authentication via gmail deployed to Firebase.",
       tags: [
         {
-          name: "nextjs",
+          name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "auth",
+          color: "red",
+        },
+        {
+          name: "auth",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "firebase",
+          color: "",
+        },
+        {
+          name: "styled components",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: slackclone,
+      source_code_link: "https://github.com/johnsonr84/slack-clone",
+    },
+    {
+      name: "Slack Clone",
+      description:
+        "Full Stack App - Slack Clone built with React, Redux, Styled Components & Firebase Hooks functionality and user authentication via gmail deployed to Firebase.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "auth",
+          color: "red",
+        },
+        {
+          name: "auth",
+          color: "green-text-gradient",
+        },
+        {
+          name: "firebase",
+          color: "",
+        },
+        {
+          name: "styled components",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: slackclone,
+      source_code_link: "https://github.com/johnsonr84/slack-clone",
     },
   ];
   
