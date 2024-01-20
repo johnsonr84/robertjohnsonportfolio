@@ -11,7 +11,11 @@ const ServiceCard = ({ index, title, icon }) => (
   <Tilt className='xs:w-[250px] w-full'>
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      className='w-full rounded-[20px] border shadow-card'
+      style={{
+        borderRadius: "20px",
+        // border: "2px solid grey"
+      }}
     >
       <div
         options={{
@@ -24,10 +28,10 @@ const ServiceCard = ({ index, title, icon }) => (
         <img
           src={icon}
           alt='web-development'
-          className='w-16 h-16 object-contain'
+          className='w-24 h-24 object-contain'
         />
 
-        <h3 className='text-black text-[20px] font-bold text-center'>
+        <h3 className='text-[#545454] text-[20px] font-bold text-center'>
           {title}
         </h3>
       </div>
