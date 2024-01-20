@@ -1,7 +1,7 @@
 import {
-    frontend,
-    backend,
-    creator,
+    fullstack,
+    software,
+    teaching,
     web,
     javascript,
     typescript,
@@ -37,6 +37,10 @@ import {
     git,
     figma,
     stv,
+    linkedin,
+    github2,
+    xlogo,
+    youtube,
     teqtank,
     posh,
     edx,
@@ -77,19 +81,19 @@ import {
   const services = [
     {
       title: "Software Developer",
-      icon: backend,
+      icon: software,
     },
     {
       title: "Fullstack Developer",
-      icon: frontend,
+      icon: fullstack,
     },
     {
       title: "Web" + " " + "Developer",
       icon: web,
     },
     {
-      title: "Bootcamp Teaching Assistant",
-      icon: creator,
+      title: "Bootcamp TA",
+      icon: teaching,
     },
   ];
 
@@ -230,7 +234,30 @@ import {
     //   icon: visualstudio,
     // },
   ];
-  
+
+  const socials = [
+    {
+      name: "linkedin",
+      icon: linkedin,
+      social_link: "https://www.linkedin.com/in/robertjohnson1984/",
+    },
+    {
+      name: "github2",
+      icon: github2,
+      social_link: "https://github.com/johnsonr84",
+    },
+    {
+      name: "xlogo",
+      icon: xlogo,
+      social_link: "https://twitter.com/RobThatBeat",
+    },
+    {
+      name: "youtube",
+      icon: youtube,
+      social_link: "https://www.youtube.com/",
+    },
+  ];
+
   const experiences = [
     {
       title: "Fullstack Engineer",
@@ -448,4 +475,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, socials, experiences, testimonials, projects };
