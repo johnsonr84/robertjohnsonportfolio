@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import frontend from "./frontend.png";
+import software from "./software.png";
+import teaching from "./teaching.png";
+import fullstack from "./fullstack.png";
 import web from "./web.png";
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -41,6 +41,11 @@ import visualstudio from "./tech/visualstudio.png";
 import vscode from "./tech/vscode.png";
 import deployment from "../assets/deployment.png";
 
+import linkedin from "./soc/linkedin.png"
+import github2 from "./soc/github2.png"
+import xlogo from "./soc/xlogo.png"
+import youtube from "./soc/youtube.png"
+
 import stv from "./company/stv.png";
 import edx from "./company/edx.png";
 import posh from "./company/perfectly-posh.png";
@@ -52,11 +57,14 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import slackclone from "./slack-clone.png";
 
+import rob from "./rob.png"
+import rob2 from "./rob2.png"
+
 export {
   logo,
-  backend,
-  creator,
-  frontend,
+  software,
+  teaching,
+  fullstack,
   web,
   github,
   menu,
@@ -93,6 +101,10 @@ export {
   illustrator,
   tailwind,
   threejs,
+  linkedin,
+  github2,
+  xlogo,
+  youtube,
   edx,
   teqtank,
   posh,
@@ -103,4 +115,6 @@ export {
   jobit,
   slackclone,
   deployment,
+  rob,
+  rob2,
 };
