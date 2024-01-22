@@ -55,8 +55,8 @@ const Certifications = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My achievments</p>
-        <h2 className={`${styles.sectionHeadText}`}>Certifications.</h2>
+        <p className={`${styles.sectionSubText} text-center`}>My achievments</p>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Certifications.</h2>
       </motion.div>
 
       <div className='w-full flex'>
