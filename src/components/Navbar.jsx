@@ -43,11 +43,11 @@ const Navbar = () => {
           }}
         >
           {/* <img src={logo} alt="logo" className="h-7 object-contain" /> */}
-          <p className="text-[#2975f0] text-[22px] font-bold cursor-pointer flex ">
+          <p className="flex text-[#2975f0] text-[22px] transform transition duration-300 hover:scale-125 cursor-pointer">
             Robert Johnson &nbsp;
             {/* <span className="sm:block hidden font-medium"> |   Portfolio</span> */}
             <span className={`${
-        scrolled ? "text-white" : "text-black"
+        scrolled ? "text-white" : "text-[#8a8a8a]"
       }`}> |   Portfolio</span>
           </p>
         </Link>
@@ -57,7 +57,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                scrolled ? "text-white" : "text-[black]"
+                scrolled ? "text-white" : "text-[#8a8a8a]"
               } hover:text-[#007AE2] transform transition duration-300 hover:scale-125 text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
