@@ -13,7 +13,7 @@ const Hero = () => {
       'I enjoy building software, user interfaces and web applications.',
     ],
     loop: true,
-    typeSpeed: 80,
+    typeSpeed: 50,
     delaySpeed: 1000,
     deleteSpeed: 50,
   })
