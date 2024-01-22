@@ -4,13 +4,13 @@ import { motion } from "framer-motion";
 import { BallCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
-import { textVariant } from "../utils/motion";
+import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../styles";
 
 const Tech = ({index, title}) => {
   return (
     <div>
-        <motion.div variants={textVariant()}>
+        <motion.div variants={fadeIn("down", "spring", index * 0.5, 0.75)}>
         <p className={`${styles.sectionSubText} text-center`}>
           Not all the tools, but the primary ones!
         </p>
