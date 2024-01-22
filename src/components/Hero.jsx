@@ -3,8 +3,6 @@ import { motion } from "framer-motion";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 
 import { styles } from "../styles";
-// import { rob } from "../assets/";
-// import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
   const [text, count] = useTypewriter({
