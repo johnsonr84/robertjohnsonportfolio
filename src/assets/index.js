@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
-import software from "./software.png";
-import teaching from "./teaching.png";
-import fullstack from "./fullstack.png";
-import web from "./web.png";
+import softwaregrey from "./softwaregrey.png";
+import teachinggrey from "./teachinggrey.png";
+import fullstackgrey from "./fullstackgrey.png";
+import webgrey from "./webgrey.png";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -62,10 +62,10 @@ import rob2 from "./rob2.png"
 
 export {
   logo,
-  software,
-  teaching,
-  fullstack,
-  web,
+  softwaregrey,
+  teachinggrey,
+  fullstackgrey,
+  webgrey,
   github,
   menu,
   close,
