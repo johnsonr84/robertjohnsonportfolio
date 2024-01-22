@@ -1,8 +1,8 @@
 import {
-    fullstack,
-    software,
-    teaching,
-    web,
+    fullstackgrey,
+    softwaregrey,
+    teachinggrey,
+    webgrey,
     javascript,
     typescript,
     html,
@@ -81,19 +81,19 @@ import {
   const services = [
     {
       title: "Software Developer",
-      icon: software,
+      icon: softwaregrey,
     },
     {
       title: "Fullstack Developer",
-      icon: fullstack,
+      icon: fullstackgrey,
     },
     {
       title: "Web" + " " + "Developer",
-      icon: web,
+      icon: webgrey,
     },
     {
       title: "Bootcamp TA",
-      icon: teaching,
+      icon: teachinggrey,
     },
   ];
 

@@ -69,6 +69,10 @@
   background: #2975f0;
 }
 
+.vertical-timeline-element-icon {
+  background: #8a8a8a !important;
+}
+
 .black-gradient {
   background: #000000; /* fallback for old browsers */
   background: -webkit-linear-gradient(
