@@ -57,6 +57,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import slackclone from "./slack-clone.png";
 
+import tiy from "./certifications/tiy.png"
+import uofu from "./certifications/uofu.png"
+
 import rob from "./rob.png"
 import rob2 from "./rob2.png"
 
@@ -117,4 +120,6 @@ export {
   deployment,
   rob,
   rob2,
+  tiy,
+  uofu,
 };
