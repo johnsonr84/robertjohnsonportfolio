@@ -58,7 +58,7 @@ const Navbar = () => {
               key={nav.id}
               className={`${
                 scrolled ? "text-white" : "text-[#8a8a8a]"
-              } hover:text-[#007AE2] transform transition duration-300 hover:scale-125 text-[18px] font-medium cursor-pointer`}
+              } hover:text-[#007AE2] transform transition duration-300 hover:scale-125 text-[14px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
@@ -82,7 +82,7 @@ const Navbar = () => {
               {navLinks.map((nav) => (
                 <li
                   key={nav.id}
-                  className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  className={`font-poppins font-medium cursor-pointer text-[14px] ${
                     active === nav.title ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
