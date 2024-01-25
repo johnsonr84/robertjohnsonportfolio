@@ -140,9 +140,9 @@ const Contact = ({ index, title, }) => {
         className="flex justify-items-center items-center xl:flex-1 xl:h-auto md:h-[550px] max-w-[200px]"
       >
         <div className="max-w-[200px]">
-          {socials.map((social, social_link, index) => (
+          {socials.map((social, index) => (
             <div
-              onClick={() => window.open(social_link, "_blank")}
+              onClick={() => window.open(social.social_link, "_blank")}
               className="cursor-pointer"
               key={social.name}
             >
