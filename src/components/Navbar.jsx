@@ -57,7 +57,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                scrolled ? "text-white" : "text-[#8a8a8a]"
+                scrolled ? "dark" : "light"
               } hover:text-[#007AE2] transform transition duration-300 hover:scale-125 text-[14px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -69,14 +69,16 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt="menu"
-            className="w-[28px] h-[28px] object-contain"
+            className={`${
+              scrolled ? "bg-black" : "bg-[#8a8a8a]"
+            }w-[28px] h-[28px] object-contain`}
             onClick={() => setToggle(!toggle)}
           />
 
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 bg-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-black text-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (
