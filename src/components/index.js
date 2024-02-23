@@ -5,6 +5,7 @@ import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
 import Works from './projects/Works';
+import Bootcamp from './projects/Bootcamp';
 // import Calendar from './Calendar'
 import Certifications from './Certifications'
 import Feedbacks from './Feedbacks';
@@ -17,6 +18,7 @@ export {
   Tech,
   Experience,
   Works,
+  Bootcamp,
   // Calendar,
   Certifications,
   Feedbacks,
