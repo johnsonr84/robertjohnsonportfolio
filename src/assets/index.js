@@ -53,9 +53,9 @@ import teqtank from "./company/teqtank.png";
 import noorda from "./company/noorda.png";
 import amari from "./company/amari.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import slackclone from "./slack-clone.png";
+import carrent from "./works/carrent.png";
+import jobit from "./works/jobit.png";
+import slackclone from "./works/slack-clone.png";
 
 import tiy from "./certifications/tiy.png"
 import uofu from "./certifications/uofu.png"
