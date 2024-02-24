@@ -486,7 +486,7 @@ import {
     },
   ];
 
-  const bootcamp = [
+  const bootcamps = [
     {
       name: "Employee Directory",
       description:
@@ -515,4 +515,4 @@ import {
     },
   ]
   
-  export { services, technologies, socials, experiences, testimonials, projects, bootcamp, certifications };
+  export { services, technologies, socials, experiences, testimonials, projects, bootcamps, certifications };

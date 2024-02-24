@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SectionWrapper } from "../../hoc";
-import { projects } from "../../constants";
+import { bootcamps } from "../../constants";
 import { fadeIn, textVariant } from "../../utils/motion";
 import { styles } from "../../styles";
 import { motion } from "framer-motion";
@@ -16,7 +16,7 @@ import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 const ProjectCard = ({
   index,
-  projects,
+  bootcamps,
   name,
   description,
   tags,
@@ -121,12 +121,12 @@ const Bootcamp = () => {
         className="mt-20 swiper_container"
       >
         <div className="mt-20 flex flex-wrap gap-7">
-          {projects.map((project, projects, index) => (
+          {bootcamps.map((bootcamp, bootcamps, index) => (
             <SwiperSlide>
               <ProjectCard
-                key={`project-${index}`}
+                key={`bootcamp-${index}`}
                 index={index}
-                {...project}
+                {...bootcamp}
               />
             </SwiperSlide>
           ))}
@@ -201,4 +201,4 @@ const Bootcamp = () => {
   );
 };
 
-export default SectionWrapper(Bootcamp, "projects");
+export default SectionWrapper(Bootcamp, "bootcamps");
