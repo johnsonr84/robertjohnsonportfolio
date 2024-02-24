@@ -57,6 +57,8 @@ import carrent from "./works/carrent.png";
 import jobit from "./works/jobit.png";
 import slackclone from "./works/slack-clone.png";
 
+import employeedir from "./bootcamp/employeedir.png";
+
 import tiy from "./certifications/tiy.png"
 import uofu from "./certifications/uofu.png"
 
@@ -122,4 +124,5 @@ export {
   rob2,
   tiy,
   uofu,
+  employeedir,
 };

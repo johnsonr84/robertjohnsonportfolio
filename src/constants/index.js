@@ -51,6 +51,7 @@ import {
     slackclone,
     tiy,
     uofu,
+    employeedir,
   } from "../assets";
 
   // import { ThemeInput } from 'react-activity-calendar';
@@ -485,6 +486,26 @@ import {
     },
   ];
 
+  const bootcamp = [
+    {
+      name: "Employee Directory",
+      description:
+        "Given a table of random users generated from the Random User API, when the user loads the page, a table of employees should render.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: employeedir,
+      source_code_link: "https://github.com/johnsonr84/react-employee-directory/tree/main",
+    },
+  ];
+
   const certifications = [
     {
       image: tiy,
@@ -494,4 +515,4 @@ import {
     },
   ]
   
-  export { services, technologies, socials, experiences, testimonials, projects, certifications };
+  export { services, technologies, socials, experiences, testimonials, projects, bootcamp, certifications };
