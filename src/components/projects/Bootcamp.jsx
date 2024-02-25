@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { SectionWrapper } from "../../hoc";
-import { bootcamps } from "../../constants";
+import { bootcampprojects } from "../../constants";
 import { fadeIn, textVariant } from "../../utils/motion";
 import { styles } from "../../styles";
 import { motion } from "framer-motion";
@@ -12,12 +12,14 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
+import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
 const ProjectCard = ({
   index,
-  bootcamps,
+  bootcampprojects,
   name,
+  title,
+  techs,
   description,
   tags,
   image,
@@ -25,7 +27,7 @@ const ProjectCard = ({
   deployment_link,
 }) => {
   return (
-    <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] h-90">
+    <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] h-100">
       <div className="relative h-[230px]">
         <img
           src={image}
@@ -36,6 +38,7 @@ const ProjectCard = ({
           <div
             onClick={() => window.open(deployment_link, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            style={{border: "1px solid white"}}
           >
             <img
               src={deployment}
@@ -48,6 +51,7 @@ const ProjectCard = ({
           <div
             onClick={() => window.open(source_code_link, "_blank")}
             className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            style={{border: "1px solid white"}}
           >
             <img
               src={github}
@@ -63,7 +67,15 @@ const ProjectCard = ({
         <p className="mt-2 text-white text-[14px]">{description}</p>
       </div>
 
-      <div className="mt-4 flex flex-wrap gap-2">
+      {/* <div className="mt-2 flex flex-wrap gap-2">
+        {bootcampprojects.map((tech, index) => (
+          <div className="w-10 h-10" key={tech.name}>
+            <img  icon={tech.icon} index={index} />
+          </div>
+        ))}
+      </div> */}
+
+      <div className="mt-2 flex flex-wrap gap-2">
         {tags.map((tag) => (
           <p key={`${name}-${tag.name}`} className={`text-[14px] ${tag.color}`}>
             #{tag.name}
@@ -87,15 +99,16 @@ const Bootcamp = () => {
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-[#545454] text-[17px] max-w-6xl leading-[30px]"
         >
-          Following projects were built with HTML, CSS, JavaScript, jQuery, Bootstrap, 
-          ExpressJS, React, NodeJS, API/JSON, RESTful API, State Management, SQL, MySQL, 
-          NoSQL, MongoDB, GraphQL, OOP, ORM, MVC, PWA, Command Line, Database Theory, 
-          Agile Methodologies, Quality Assurance Testing, Social Coding Best Practices, 
-          Computer Science Fundamentals and Git. They showcase my skills and experience 
-          through my fullstack coding bootcamp. Each project is briefly described with
-          links to the deployed application and Github repository. It reflects
-          my ability to solve complex problems, work with different
-          technologies, and manage projects effectively.
+          Following projects were built with HTML, CSS, JavaScript, jQuery,
+          Bootstrap, ExpressJS, React, NodeJS, API/JSON, RESTful API, State
+          Management, SQL, MySQL, NoSQL, MongoDB, GraphQL, OOP, ORM, MVC, PWA,
+          Command Line, Database Theory, Agile Methodologies, Quality Assurance
+          Testing, Social Coding Best Practices, Computer Science Fundamentals
+          and Git. They showcase my skills and experience through my fullstack
+          coding bootcamp. Each project is briefly described with links to the
+          deployed application and Github repository. It reflects my ability to
+          solve complex problems, work with different technologies, and manage
+          projects effectively.
         </motion.p>
       </div>
 
@@ -121,17 +134,16 @@ const Bootcamp = () => {
         className="mt-20 swiper_container"
       >
         <div className="mt-20 flex flex-wrap gap-7">
-          {bootcamps.map((bootcamp, bootcamps, index) => (
+          {bootcampprojects.map((bootcampproject, bootcampprojects, index) => (
             <SwiperSlide>
               <ProjectCard
-                key={`bootcamp-${index}`}
+                key={`bootcampproject-${index}`}
                 index={index}
-                {...bootcamp}
+                {...bootcampproject}
               />
             </SwiperSlide>
           ))}
         </div>
-
         <div className="slider-controler mt-10">
           <div className="swiper-button-prev slider-arrow">
             <ion-icon name="arrow-back-outline"></ion-icon>
@@ -141,64 +153,9 @@ const Bootcamp = () => {
           </div>
           <div className="swiper-pagination"></div>
         </div>
-
       </Swiper>
-
-      {/* <Swiper
-        effect={"coverflow"}
-        grabCursor={true}
-        centeredSlides={true}
-        loop={true}
-        slidesPerView={"auto"}
-        coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        }}
-        pagination={{ el: ".swiper-pagination", clickable: true }}
-        navigation={{
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-          clickable: true,
-        }}
-        modules={[EffectCoverflow, Pagination, Navigation]}
-        className="swiper_container"
-      >
-        <SwiperSlide>
-          <img src={slide_image_1} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_2} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_3} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_4} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_5} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_6} alt="slide_image" />
-        </SwiperSlide>
-        <SwiperSlide>
-          <img src={slide_image_7} alt="slide_image" />
-        </SwiperSlide> */}
-
-        {/* <div className="slider-controler">
-          <div className="swiper-button-prev slider-arrow">
-            <ion-icon name="arrow-back-outline"></ion-icon>
-          </div>
-          <div className="swiper-button-next slider-arrow">
-            <ion-icon name="arrow-forward-outline"></ion-icon>
-          </div>
-          <div className="swiper-pagination"></div>
-        </div>
-      </Swiper> */}
     </>
   );
 };
 
-export default SectionWrapper(Bootcamp, "bootcamps");
+export default SectionWrapper(Bootcamp, "bootcampprojects");
