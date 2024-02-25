@@ -1,10 +1,9 @@
-import { BallCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
 import Tech from './Tech';
 import Experience from './Experience';
-import Works from './projects/Works';
+import Fullstack from './projects/Fullstack';
 import Bootcamp from './projects/Bootcamp';
 // import Calendar from './Calendar'
 import Certifications from './Certifications'
@@ -17,12 +16,10 @@ export {
   About,
   Tech,
   Experience,
-  Works,
+  Fullstack,
   Bootcamp,
   // Calendar,
   Certifications,
   Feedbacks,
   Contact,
-  BallCanvas, 
-  StarsCanvas
 }
