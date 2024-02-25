@@ -1,4 +1,4 @@
 import Bootcamp from "./Bootcamp";
-import Works from "./Works";
+import Fullstack from "./Fullstack";
 
-export { Bootcamp, Works };
+export { Fullstack, Bootcamp };
