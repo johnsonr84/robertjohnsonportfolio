@@ -12,6 +12,7 @@ import figma from "./tech/figma.png";
 import git from "./tech/git.png";
 import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
+import jquery from "./tech/jquery.png"
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import express from "./tech/express.png";
@@ -53,11 +54,24 @@ import teqtank from "./company/teqtank.png";
 import noorda from "./company/noorda.png";
 import amari from "./company/amari.png";
 
+//Fullstack
 import carrent from "./works/carrent.png";
 import jobit from "./works/jobit.png";
 import slackclone from "./works/slack-clone.png";
 
+//Bootcamp
 import employeedir from "./bootcamp/employeedir.png";
+import memberdir from "./bootcamp/memberdir.png";
+import pwabudget from "./bootcamp/pwabudget.png";
+import workouttracker from "./bootcamp/workouttracker.png";
+import empmanagement from "./bootcamp/empmanagement.png";
+import workdayscheduler from "./bootcamp/workdayscheduler.png";
+import notetaker from "./bootcamp/notetaker.png";
+import teamgenerator from "./bootcamp/teamgenerator.png";
+import readmegenerator from "./bootcamp/readmegenerator.png";
+import weatherdash from "./bootcamp/weatherdash.png";
+import passwordgenerator from "./bootcamp/passwordgenerator.png";
+import jscodequiz from "./bootcamp/jscodequiz.png";
 
 import tiy from "./certifications/tiy.png"
 import uofu from "./certifications/uofu.png"
@@ -79,6 +93,7 @@ export {
   git,
   html,
   javascript,
+  jquery,
   typescript, 
   nextjs,
   mongodb,
@@ -125,4 +140,15 @@ export {
   tiy,
   uofu,
   employeedir,
+  memberdir,
+  pwabudget,
+  workouttracker,
+  empmanagement,
+  workdayscheduler,
+  notetaker,
+  teamgenerator,
+  readmegenerator,
+  weatherdash,
+  passwordgenerator,
+  jscodequiz,
 };
