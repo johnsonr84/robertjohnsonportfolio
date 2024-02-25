@@ -53,6 +53,42 @@
   color: yellow;
 }
 
+.text-html {
+  color: #F16A30;
+}
+
+.text-css {
+  color: #30AEE0;
+}
+
+.text-js {
+  color: #FDD83A;
+}
+
+.text-react {
+  color: #66DBFB;
+}
+
+.text-bootstrap {
+  color: #bb74fd;
+}
+
+.text-ts {
+  color: #377CC8;
+}
+
+.text-node {
+  color: #8FC708;
+}
+
+.text-mysql {
+  color: #E59208;
+}
+
+.text-other {
+  color: #fff;
+}
+
 .text-purple {
   color: purple;
 }
