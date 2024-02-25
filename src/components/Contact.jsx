@@ -77,12 +77,12 @@ const Contact = ({ index, title, }) => {
         <img
           src={rob2}
           alt="contact section image of Robert holding laptop"
-          className="h-[auto] max-h-[800px] object-cover"
+          className="h-[auto] max-h-[650px] object-cover"
         />
       </motion.div>
       <motion.div
         variants={fadeIn("top", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-[#454545] p-8 rounded-2xl max-w-[500px] lg:min-w-[500px]"
+        className="flex-[0.75] bg-[#454545] p-8 rounded-2xl max-w-[500px] lg:min-w-[500px] max-h-[650px]"
       >
         <p className={styles.sectionSubTextLight}>Get in touch!</p>
         <h3 className={styles.sectionHeadText}>Contact.</h3>
@@ -90,7 +90,7 @@ const Contact = ({ index, title, }) => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="flex mt-12 flex-col gap-8"
+          className="flex mt-5 flex-col gap-6"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
@@ -117,7 +117,7 @@ const Contact = ({ index, title, }) => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
-              rows={7}
+              rows={3}
               name="message"
               value={form.message}
               onChange={handleChange}
