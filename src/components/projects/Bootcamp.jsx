@@ -27,8 +27,8 @@ const ProjectCard = ({
   deployment_link,
 }) => {
   return (
-    <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] h-100">
-      <div className="relative h-[230px]">
+    <div className="bg-tertiary p-5 rounded-2xl sm:w-[360px] xs:w-[300px] w-[280px] min-h-[500px]">
+      <div className="relative h-[230px] w-full">
         <img
           src={image}
           alt="project_image"
