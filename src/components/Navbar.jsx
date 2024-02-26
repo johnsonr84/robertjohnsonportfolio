@@ -57,7 +57,7 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                scrolled ? "text-white" : "text-black"
+                scrolled ? "text-white" : "text-[#8a8a8a]"
               } hover:text-[#007AE2] transform transition duration-300 hover:scale-125 text-[14px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.title)}
             >
@@ -78,14 +78,14 @@ const Navbar = () => {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 bg-black text-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            } p-6 bg-[#2975f0] text-white absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navlinks.map((nav) => (
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[14px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.title ? "text-white" : "text-white"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);

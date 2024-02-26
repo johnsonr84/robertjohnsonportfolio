@@ -9,7 +9,7 @@ const styles = {
       "text-[#434344] font-medium xl:text-[22px] lg:text-[18px] md:text-[16px] sm:text-[14px] text-[12px] lg:leading-[40px]",
   
     sectionHeadText:
-      "text-[#2975f0] font-[] md:text-[60px] sm:text-[50px] xs:text-[40px] lg:text-[60px]",
+      "text-[#2975f0] font-[] text-[36px] md:text-[60px] sm:text-[50px] xs:text-[40px] lg:text-[60px]",
     sectionSubText:
       "text-[#000000] font-[] sm:text-[18px] lg:text-[20px] uppercase tracking-wider",
       sectionSubTextLight:
