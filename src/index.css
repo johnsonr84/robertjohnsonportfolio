@@ -23,6 +23,7 @@
   background: url("./assets/rob.png");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .bg-global-nav-scrolled {
